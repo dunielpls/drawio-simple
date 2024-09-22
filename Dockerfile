@@ -2,7 +2,7 @@ FROM nginx:1.21.4-alpine
 
 LABEL maintainer="Daniel Isaksen"
 
-ARG DRAWIO_VERSION="15.8.3"
+ARG DRAWIO_VERSION="24.7.8"
 ARG DRAWIO_REPO="https://github.com/jgraph/drawio.git"
 
 RUN apk add --no-cache git
