@@ -1,6 +1,6 @@
 FROM nginx:1.19.5-alpine
 
-LABEL maintainer="Daniel Isaksen <daniel.isaksen@banenor.no>"
+LABEL maintainer="Daniel Isaksen"
 
 RUN apk add --no-cache git
 
